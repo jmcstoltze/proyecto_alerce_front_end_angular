@@ -1,6 +1,8 @@
 # Sistema de Gestión de Pacientes - Frontend
 
-Este proyecto de frontend es parte del sistema de gestión de visitas a pacientes de un asilo de ancianos por parte del Hospital 'Los Alerces'. Se integra con el backend alojado en el siguiente repositorio: Proyecto Alerce Backend.
+Este proyecto de frontend es parte del sistema de gestión de visitas a pacientes de un asilo de ancianos por parte del Hospital 'Los Alerces'. Se integra con el backend alojado en el siguiente repositorio, Proyecto Alerce Backend:
+
+[https://github.com/jmcstoltze/proyecto_alerce_back_end]
 
 ## Tecnologías utilizadas
 
