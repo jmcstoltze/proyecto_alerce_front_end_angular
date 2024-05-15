@@ -1,27 +1,53 @@
-# ProyectoAlerceEvaluacion3
+# Sistema de Gestión de Pacientes - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Este proyecto de frontend es parte del sistema de gestión de visitas a pacientes de un asilo de ancianos por parte del Hospital 'Los Alerces'. Se integra con el backend alojado en el siguiente repositorio: Proyecto Alerce Backend.
 
-## Development server
+## Tecnologías utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular (Standalone Components)
+- Angular Router
+- Angular Reactive Forms
+- HttpClientModule (para peticiones HTTP)
+- TypeScript
+- HTML
+- CSS
 
-## Code scaffolding
+## Descripción
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El frontend de este sistema de gestión de pacientes ha sido desarrollado con Angular utilizando componentes standalone. Utiliza Angular Router para la navegación dentro del sitio. Se conecta con la API RESTful del backend para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los datos de los pacientes almacenados en la base de datos MongoDB.
 
-## Build
+## Configuración
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este repositorio en tu máquina local.
+2. Instala las dependencias utilizando el comando `npm install`.
+3. Asegúrate de tener acceso al backend alojado en Proyecto Alerce Backend.
+4. Configura la URL de conexión al backend en el archivo de configuración correspondiente (usualmente en un archivo de constantes o de configuración de la API).
+5. Ajusta cualquier otra configuración necesaria según las instrucciones del backend.
 
-## Running unit tests
+## Requerimientos a evaluar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Configura Angular Router para la navegación dentro del sitio.
+- Crea las rutas de navegación con Angular Router.
+- Conecta la API RestFul del backend con la aplicación de Angular utilizando HttpClientModule.
+- Crea componentes para la administración de los pacientes.
+- Valida el ingreso de datos desde el frontend con Angular Reactive Forms.
+- Implementa redireccionamiento de páginas.
+- Utiliza HTML y CSS para la lógica de los componentes.
 
-## Running end-to-end tests
+## Componentes
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+El proyecto contiene un menú de navegación y diversas páginas y componentes:
 
-## Further help
+- Página de inicio o home.
+- Componentes para agregar, listar y buscar pacientes.
+- Componentes específicos para actualizar o eliminar registros en la base de datos MongoDB.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Nota al profesor
+
+El proyecto está actualmente en su fase inicial. Hasta el momento, se ha esbozado un pequeño esqueleto del sistema, pero no se ha logrado cumplir con el plazo establecido para completar el proyecto como corresponde. Debido a esto, solicito una extensión del plazo para poder finalizar adecuadamente el desarrollo del frontend.
+
+Agradezco de antemano su comprensión y consideración.
+
+## Autor
+
+Jose Contreras Stoltze
