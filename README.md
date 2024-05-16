@@ -44,12 +44,6 @@ El proyecto contiene un menú de navegación y diversas páginas y componentes:
 - Componentes para agregar, listar y buscar pacientes.
 - Componentes específicos para actualizar o eliminar registros en la base de datos MongoDB.
 
-## Nota al profesor
-
-El proyecto está actualmente en su fase inicial. Hasta el momento, se ha esbozado un pequeño esqueleto del sistema, pero no se ha logrado cumplir con el plazo establecido para completar el proyecto como corresponde. Debido a esto, solicito una extensión del plazo para poder finalizar adecuadamente el desarrollo del frontend.
-
-Agradezco de antemano su comprensión y consideración.
-
 ## Autor
 
 Jose Contreras Stoltze

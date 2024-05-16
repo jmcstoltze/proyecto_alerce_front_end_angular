@@ -1,1 +1,22 @@
-<p>listar-registros works!</p>
+<app-navbar></app-navbar>
+<div>
+    <div>
+        <h1>Listado de Pacientes</h1>
+        <table>
+            <thead>
+              <tr>
+                <th>Foto</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let paciente of pacientes">
+                <td><img [src]="paciente.fotoPersonal" alt="Foto de {{ paciente.nombre }}"></td>
+                <td>{{ paciente.nombre }}</td>
+                <td>{{ paciente.apellido }}</td>
+              </tr>
+            </tbody>
+        </table>          
+    </div>
+</div> 

@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+
 import { HomeComponent } from './components/home/home.component';
 import { NuevoRegistroComponent } from './components/nuevo-registro/nuevo-registro.component';
 import { ActualizarRegistroComponent } from './components/actualizar-registro/actualizar-registro.component';
@@ -9,17 +10,16 @@ import { ListarRegistroComponent } from './components/listar-registro/listar-reg
 import { ListarRegistrosComponent } from './components/listar-registros/listar-registros.component';
 import { ErrorComponent } from './components/error/error.component';
 
-
 // Rutas dadas en los requerimientos
-export const appRoutes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'home', component: HomeComponent },
-    { path: 'registro/nuevo', component: NuevoRegistroComponent },
-    { path: 'registro/actualizar/:id', component: ActualizarRegistroComponent },
-    { path: 'registro/detalle/:id', component: DetalleRegistroComponent },
-    { path: 'registro/buscar', component: BuscarRegistroComponent },
-    { path: 'registro/busqueda/:search', component: BusquedaRegistroComponent },
-    { path: 'registro/listar', component: ListarRegistroComponent },
-    { path: 'registro/listar-todos', component: ListarRegistrosComponent },
-    { path: '**', component: ErrorComponent },
+export const routes: Routes = [
+ {path: '', redirectTo: '/home', pathMatch: 'full'},
+ { path: 'home', component: HomeComponent },
+ { path: 'registro/nuevo', component: NuevoRegistroComponent },
+ { path: 'registro/actualizar/:id', component: ActualizarRegistroComponent },
+ { path: 'registro/detalle/:id', component: DetalleRegistroComponent },
+ { path: 'registro/buscar', component: BuscarRegistroComponent },
+ { path: 'registro/busqueda/:search', component: BusquedaRegistroComponent },
+ { path: 'registro/listar', component: ListarRegistroComponent },
+ { path: 'registro/listar-todos', component: ListarRegistrosComponent },
+ { path: '**', component: ErrorComponent },
 ];
